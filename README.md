@@ -58,7 +58,7 @@ Note that link number 4 is a link to an external page, links without an anchor w
 NavSync has a number of parameters to make use of, for example the ability to tweak with scrolling behaviour, speed of scrolling animations, and the name of the class applied to your header items. These are available to let you customize the behaviour of NavSync however you see fit.
 ### highlightClass
 ```javascript
-$("nav").navSync({hightlightClass : "highlight-menu-item"});
+$("nav").navSync({highlightClass : "highlight-menu-item"});
 ```
 Changes the default class from "navsync-menu-highlight" to "highlight-menu-item". The class is removed once the item has been scrolled past, and reapplied if the user scrolls up.
 ### animationTime
